@@ -27,7 +27,7 @@
 <body>
     <main class="main">
         <header class="header">
-            <img src="/assets/img/my-photo.jpeg" alt="Foto de Perfil" class="photo" id="profile.photo">
+            <img src="/assets/img/my-photo.jpeg" alt="Foto de Perfil" class="photo">
 
             <h1 class="title">
                 Olá, <br>eu sou Guilherme J Silva</span>
@@ -57,32 +57,51 @@
                 <div class="skills">
                     <section class="tools">
                         <h3>Ferramentas:</h3>
-                        <ul id="profile.skills.hardSkills">
+                        <ul>
+                            <li>
+                                <img src="/assets/img/icons/tools/JavaScript.svg" alt="JavaScript" title="JavaScript">
+                            </li>
+                            <li>
+                                <img src="assets/img/icons/tools/Java.svg" alt="Java" title="Java">
+                            </li>
+                            <li>
+                                <img src="assets/img/icons/tools/Postgre.svg" alt="PostgreSQL" title="Postgre">
+                            </li>
+                            <li>
+                                <img src="assets/img/icons/tools/Sql.svg" alt="Sql" title="SQL">
+                            </li>
+                            <li>
+                                <img src="assets/img/icons/tools/Git.svg" alt="Git" title="Git">
+                            </li>
                         </ul>
-                    </section>
-
-                    <section class="personal">
-                        <h3>Pessoal:</h3>
-                        <ul id="profile.skills.softSkills">
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                        </ul>
-                    </section>
                 </div>
-            </div>
+                <section class="personal">
+                    <h3>Pessoal:</h3>
+                    <ul>
+                        <li>Facilidade com tarefas praticas</li>
+                        <li>Otimo trabalho em equipe</li>
+                        <li>Proatividade</li>
+                        <li>Muito interesse em aprender</li>
+                        <li>Facilidade em comunicação</li>
+                    </ul>
+                </section>
         </section>
+        </div>
+        </div>
 
+        </section>
         <section class="acordeon">
             <button class="trigger" type="button">
                 <h2>Idiomas</h2>
             </button>
 
             <div class="content">
-                <ul class="languages" id="profile.languages">
-                    <li>Carregando...</li>
-                </ul>
-            </div>
+                <li>
+                    Português
+                </li>
+                <li>
+                    Ingles Basico
+                </li>
         </section>
 
         <section class="acordeon">
@@ -91,10 +110,21 @@
             </button>
 
             <div class="content">
-                <ul class="portfolio" id="profile.portfolio">
+                <ul class="portfolio">
+                    <li>
+                        <span class="title github">Criando uma PokeDex com JS</span>
+                        <a href="https://github.com/jepesg/PokeDexJS"
+                            target="_blank">https://github.com/jepesg/PokeDexJS</a>
+                    </li>
+                    <li>
+                        <span class="title github">Criando Classes de RPG</span>
+                        <a href="https://github.com/jepesg/definindoClasses"
+                            target="_blank">https://github.com/jepesg/definindoClasses</a>
+                    </li>
                 </ul>
             </div>
         </section>
+
 
         <section class="acordeon">
             <button class="trigger" type="button">
@@ -102,16 +132,29 @@
             </button>
 
             <div class="content">
-                <ul class="experience" id="profile.professionalExperience">
+                <ul class="experience">
+                    <li>
+                        <span class="title">Especialista de sustentação/CAPITANI</span>
+                        <span class="period">fev-2024 - Current</span>
+                        <p>
+                            Responsalvel por analisar e corrigir falhas, tambem executar aplicação de pacotes de
+                            correção e Deploys nos ambientes/servidores
+                            do Grupo CCR na area de tecnologia e digital focado em comunicações.
+                        </p>
+                    </li>
+                    <li>
+                        <span class="title">Analista de suporte JR/ Trackage</span>
+                        <span class="period">Set-2022 - ago-2023</span>
+                        <p>
+                            Realizei suporte aos clientes nas plataformas da empresa, também realizei Deploys tanto
+                            em homologação quanto em produção.
+                            Trabalhando com Postman, PostrSQL, GIT, PHP, Laravel
+                        </p>
+                    </li>
+            </div>
                 </ul>
             </div>
         </section>
-
-        <footer>
-            <a href="https://www.dio.me/" target="_blank">
-                <img src="assets/img/dio.svg" alt="DIO">
-            </a>
-        </footer>
     </main>
 
     <script src="assets/js/acordeon.js"></script>
